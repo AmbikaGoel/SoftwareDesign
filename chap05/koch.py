@@ -6,11 +6,11 @@ bob.delay=.001
 print bob
 angle=60
 
-def koch(t, n):
-	if n<3:
-	    fd(t, n)
+def koch(t, depth):
+	if depth<3:
+	    fd(t, depth)
 	    return
-	m = n/3.0
+	m = depth/3.0
 	koch(t, m)
 	lt(t, angle)
 	koch(t, m)
@@ -18,9 +18,9 @@ def koch(t, n):
 	koch(t, m)
 	lt(t, angle)
 	koch(t, m)
-def snowflake(t,n):
+def snowflake(t,depth):
 	for i in range (3):
-		koch(t,n)
+		koch(t,depth)
 		rt(t,angle*2)
 				
 snowflake(bob,100)
