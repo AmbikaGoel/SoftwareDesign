@@ -34,7 +34,11 @@ def middle(word):
 
 
 def is_palindrome(word):
+<<<<<<< HEAD
     """Returns if word is a palindrome or not.
+=======
+    """Returns if word is a is palindrome or not.
+>>>>>>> b0b2195d9cc4dabf3c630fa026b030e8715c20ed
 
     word: string
 
