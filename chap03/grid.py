@@ -11,4 +11,4 @@ def grid(a,b,c,d,g,l):
 	j=d+f*2		# prints '|             |             |'
 	k=i+(h+j)*(l)+h # prints line i, then line j (l) times (basically top 1/2 				  of box)
 	print (k)*2+i
-grid('+','-',' ','|',5,4)
+grid('+','-',' ','|',1,1)
