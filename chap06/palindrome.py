@@ -35,16 +35,15 @@ def is_palindrome(word):
     returns: boolean
     """
     if first(word)==last(word):
-        if len(word)<3:
+        if len(word)<4:
             return True
         else:
             return is_palindrome(middle(word))
     else:
         return False
 
-"""
+
 print is_palindrome('redivider')
 print is_palindrome('noon')
 print is_palindrome('cars')
 print is_palindrome('bab')
-"""

@@ -11,7 +11,7 @@ def main():
 
 		#only print palindromes
 	if is_palindrome(word):
-		print word
+		print word,
 
 if __name__ == '__main__':
 		main()
