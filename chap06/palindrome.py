@@ -39,11 +39,10 @@ def is_palindrome(word):
             return True
         else:
             return is_palindrome(middle(word))
-    else:
-        return False
 
 
-print is_palindrome('redivider')
-print is_palindrome('noon')
-print is_palindrome('cars')
-print is_palindrome('bab')
+if __name__ == '__main__':
+    print is_palindrome('redivider')
+    print is_palindrome('noon')
+    print is_palindrome('cars')
+    print is_palindrome('bab')
